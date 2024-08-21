@@ -1,0 +1,22 @@
+.icon {
+	display: none;
+}
+.btn-update {
+	display: block;
+}
+
+.icon2 {
+	display: block;
+}
+.btn-update2 {
+	display: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-text {
+  margin: 0px 10px;
+}

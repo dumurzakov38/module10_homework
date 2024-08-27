@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./src/style/style.css" />
+  </head>
+  <body>
+    <div class="App">
+      <div class="container">
+        <div class="container__inputAndBtn">
+          <input
+            class="chat__input"
+            type="text"
+            placeholder="Введите сообщение"
+          />
+          <div class="btn__container">
+            <button
+              class="chat__btn btn--submitMessage"
+              title="Отправить сообщение"
+            >
+              Отправить
+            </button>
+            <button
+              class="chat__btn btn--submitGeoLoacation"
+              title="Отправить Гео-локацию"
+            >
+              Гео-локация
+            </button>
+          </div>
+        </div>
+        <div class="container__chat"></div>
+      </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
